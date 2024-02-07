@@ -1,5 +1,5 @@
 Cara menjalankan : 
-1. Clone repo pada : 
+1. Clone repo pada :  https://github.com/muhammadfajartp/dnet-test
 2. pada terminal lakukan npm install pada terminal
 3. pada terminal npx json-server --watch src/api/db.json --port 3001
 4. jalankan npm run dev
