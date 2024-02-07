@@ -1,0 +1,67 @@
+@import "./variables";
+
+@mixin dark-mode {
+   background-color: $dark;
+   color: $text-dark;
+}
+
+@mixin light-mode {
+   background-color: $light;
+   color: $text-gray;
+}
+
+@mixin dark-card {
+   background-color: $bg-dark;
+   color: $text-dark;
+}
+
+@mixin light-card {
+   background-color: $bg-primary;
+   color: $dark;
+}
+
+@mixin text-dark-mode {
+   color: $text-dark;
+}
+
+@mixin text-light-mode {
+   color: $text-light;
+}
+
+@mixin button-style($bgColor: $primary, $color: white, $padding: 5px 10px) {
+   background-color: $bgColor;
+   color: $color;
+   padding: $padding;
+}
+
+@mixin flex-style($direction: column, $justfy: center, $alignItems: center) {
+   display: flex;
+   flex-direction: $direction;
+   justify-content: $justfy;
+   align-items: $alignItems;
+}
+
+@mixin container-style($height: 100vh, $width: auto, $bg) {
+   height: $height;
+   width: $width;
+   background-color: $bg;
+}
+
+@mixin border-style($border, $radius) {
+   border: $border;
+   border-radius: $radius;
+}
+
+@mixin row-style($height: 100%, $minHeight: 100vh) {
+   height: $height;
+   min-height: $minHeight;
+}
+
+@mixin box-shadow-style($value: $primary) {
+   box-shadow: 10px -0px 50px $value;
+}
+
+@mixin theme-style($background, $text) {
+   background-color: $background !important;
+   color: $text;
+}

@@ -1,0 +1,63 @@
+.containerSlider {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   width: 100%;
+   height: auto;
+   background-color: none;
+   margin: 10px 10px;
+   position: relative;
+   border-radius: 40px;
+   padding-top: 20px;
+
+   .sliderTitle {
+      width: 90%;
+      height: auto;
+      padding: 4px;
+   }
+
+   .slider {
+      background-color: none;
+      width: 90%;
+      height: auto;
+      white-space: nowrap;
+      overflow-x: auto;
+      overflow-y: hidden;
+      scrollbar-width: none;
+      scroll-behavior: smooth;
+
+      &::-webkit-scrollbar {
+         display: none;
+      }
+   }
+
+   .cardWrapper {
+      display: inline-block;
+      margin-right: 10px; /* Sesuaikan margin antar card */
+   }
+
+   .arrowStyle {
+      background-color: rgba(255, 255, 255, 0.658);
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      box-shadow: 1px;
+      position: absolute;
+      cursor: pointer;
+
+      &:hover {
+         background-color: rgb(255, 255, 255);
+      }
+
+      &.left {
+         left: 55px;
+         bottom: 30px;
+      }
+
+      &.right {
+         right: 55px;
+         bottom: 30px;
+      }
+   }
+}

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+.linkStyle {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.linkStyle:hover {
+  color: white;
+  font-weight: 500;
+}
+.linkStyle::after {
+  display: block;
+  content: "";
+  position: relative;
+  top: 4px;
+  height: 3px;
+  width: 10px;
+  transition: all 0.2s ease-out;
+}
+.linkStyle:hover::after {
+  position: relative;
+  top: 1px;
+  width: 100%;
+  background: #f5f7fb;
+}

@@ -1,0 +1,26 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
+
+.profileContainer {
+   max-height: 140px;
+   width: 700px;
+   @include flex-style(column, flex-start, start);
+   padding: 10px 20px;
+   border-radius: 16px;
+   position: relative;
+   @include light-card();
+   &.darkMode {
+      @include dark-card();
+   }
+   .profileItem {
+      @include flex-style(row, space-between, center);
+      width: 100%;
+      height: auto;
+      padding: 6px;
+
+      hr {
+         border: 2px solid white;
+         height: 50px;
+      }
+   }
+}

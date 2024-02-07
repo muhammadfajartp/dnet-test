@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+.btnSearch {
+  height: 28px;
+  width: 38px;
+  background-color: #245caf;
+  border: none;
+  border-radius: 50px;
+}
+
+.btnLoginHeader {
+  background-color: #245caf;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  height: 40px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+.btnLoginHeader:hover {
+  box-shadow: 0 5px 15px #245caf;
+}
+
+.linkStyle:hover {
+  color: white;
+  font-weight: 500;
+}
+.linkStyle::after {
+  display: block;
+  content: "";
+  position: relative;
+  top: 4px;
+  height: 3px;
+  width: 10px;
+  transition: all 0.2s ease-out;
+}
+.linkStyle:hover::after {
+  position: relative;
+  top: 1px;
+  width: 100%;
+  background: #245caf;
+}

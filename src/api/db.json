@@ -1,0 +1,487 @@
+{
+  "profile": {
+    "name": "John Doe",
+    "phone_number": "08123456789",
+    "email": "john.doe@example.com",
+    "password": "securepassword123", 
+    "packageactive" : {
+      "total" : "30GB", "durasi" : "30 Hari"
+    },
+    "wallet" : {
+      "pulsa" : 32000,
+      "poin" : 120
+    }
+  },
+  "providers":{
+    "telkomsel": [
+      {
+        "name": "Paket Malam",
+        "totalpackage": "1GB",
+        "price": 50000,
+        "validity": "30 days",
+        "promo": true
+      },
+      {
+        "name": "Akhir Bulan",
+        "totalpackage": "2GB",
+        "price": 75000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Internet Sakti",
+        "totalpackage": "3GB",
+        "price": 100000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Kouta Nonton",
+        "totalpackage": "4GB",
+        "price": 150000,
+        "validity": "30 days",
+        "promo": true
+      },
+      {
+        "name": "Kuota Zoom",
+        "totalpackage": "5GB",
+        "price": 200000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Paket Malam",
+        "totalpackage": "6GB",
+        "price": 250000,
+        "validity": "30 days",
+        "promo": true
+      },
+      {
+        "name": "Akhir Bulan",
+        "totalpackage": "7GB",
+        "price": 300000,
+        "validity": "30 days",
+        "promo": true
+      },
+      {
+        "name": "Internet Sakti",
+        "totalpackage": "8GB",
+        "price": 350000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Kouta Nonton",
+        "totalpackage": "9GB",
+        "price": 400000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Kuota Zoom",
+        "totalpackage": "10GB",
+        "price": 450000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Paket Malam",
+        "totalpackage": "11GB",
+        "price": 500000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Akhir Bulan",
+        "totalpackage": "12GB",
+        "price": 550000,
+        "validity": "30 days",
+        "promo": false
+      }
+    ],
+    "xl": [
+      {
+        "name": "Internet Sakti",
+        "totalpackage": "1GB",
+        "price": 45000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Kouta Nonton",
+        "totalpackage": "3GB",
+        "price": 90000,
+        "validity": "30 days",
+        "promo": true
+      },
+      {
+        "name": "Kuota Zoom",
+        "totalpackage": "6GB",
+        "price": 120000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Paket Malam",
+        "totalpackage": "9GB",
+        "price": 180000,
+        "validity": "30 days",
+        "promo": true
+      },
+      {
+        "name": "Akhir Bulan",
+        "totalpackage": "12GB",
+        "price": 220000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Internet Sakti",
+        "totalpackage": "15GB",
+        "price": 260000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Kouta Nonton",
+        "totalpackage": "18GB",
+        "price": 300000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Kuota Zoom",
+        "totalpackage": "21GB",
+        "price": 340000,
+        "validity": "30 days",
+        "promo": true
+      },
+      {
+        "name": "Paket Malam",
+        "totalpackage": "24GB",
+        "price": 380000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Akhir Bulan",
+        "totalpackage": "27GB",
+        "price": 420000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Internet Sakti",
+        "totalpackage": "30GB",
+        "price": 460000,
+        "validity": "30 days",
+        "promo": true
+      },
+      {
+        "name": "Kouta Nonton",
+        "totalpackage": "33GB",
+        "price": 500000,
+        "validity": "30 days",
+        "promo": false
+      }
+    ],
+    "indosat": [
+      {
+        "name": "Kuota Zoom",
+        "totalpackage": "2GB",
+        "price": 60000,
+        "validity": "30 days",
+        "promo": true
+      },
+      {
+        "name": "Paket Malam",
+        "totalpackage": "4GB",
+        "price": 90000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Akhir Bulan",
+        "totalpackage": "8GB",
+        "price": 120000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Internet Sakti",
+        "totalpackage": "16GB",
+        "price": 200000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Kouta Nonton",
+        "totalpackage": "20GB",
+        "price": 240000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Kuota Zoom",
+        "totalpackage": "24GB",
+        "price": 280000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Paket Malam",
+        "totalpackage": "28GB",
+        "price": 320000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Akhir Bulan",
+        "totalpackage": "32GB",
+        "price": 360000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Internet Sakti",
+        "totalpackage": "36GB",
+        "price": 400000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Kouta Nonton",
+        "totalpackage": "40GB",
+        "price": 440000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Kuota Zoom",
+        "totalpackage": "44GB",
+        "price": 480000,
+        "validity": "30 days",
+        "promo": true
+      },
+      {
+        "name": "Paket Malam",
+        "totalpackage": "48GB",
+        "price": 520000,
+        "validity": "30 days",
+        "promo": false
+      }
+    ],
+    "tri": [
+      {
+        "name": "Internet Sakti",
+        "totalpackage": "1GB",
+        "price": 40000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Kouta Nonton",
+        "totalpackage": "3GB",
+        "price": 80000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Kuota Zoom",
+        "totalpackage": "6GB",
+        "price": 120000,
+        "validity": "30 days",
+        "promo": true
+      },
+      {
+        "name": "Paket Malam",
+        "totalpackage": "9GB",
+        "price": 160000,
+        "validity": "30 days",
+        "promo": true
+      },
+      {
+        "name": "Akhir Bulan",
+        "totalpackage": "12GB",
+        "price": 200000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Internet Sakti",
+        "totalpackage": "15GB",
+        "price": 240000,
+        "validity": "30 days",
+        "promo": true
+      },
+      {
+        "name": "Kouta Nonton",
+        "totalpackage": "18GB",
+        "price": 280000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Kuota Zoom",
+        "totalpackage": "21GB",
+        "price": 320000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Paket Malam",
+        "totalpackage": "24GB",
+        "price": 360000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Akhir Bulan",
+        "totalpackage": "27GB",
+        "price": 400000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Internet Sakti",
+        "totalpackage": "30GB",
+        "price": 440000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Kouta Nonton",
+        "totalpackage": "33GB",
+        "price": 480000,
+        "validity": "30 days",
+        "promo": false
+      }
+    ],
+    "smartfren": [
+      {
+        "name": "Kuota Zoom",
+        "totalpackage": "2GB",
+        "price": 50000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Paket Malam",
+        "totalpackage": "5GB",
+        "price": 80000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Akhir Bulan",
+        "totalpackage": "10GB",
+        "price": 120000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Internet Sakti",
+        "totalpackage": "15GB",
+        "price": 160000,
+        "validity": "30 days",
+        "promo": true
+      },
+      {
+        "name": "Kouta Nonton",
+        "totalpackage": "20GB",
+        "price": 200000,
+        "validity": "30 days",
+        "promo": true
+      },
+      {
+        "name": "Kuota Zoom",
+        "totalpackage": "25GB",
+        "price": 240000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Paket Malam",
+        "totalpackage": "30GB",
+        "price": 280000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Akhir Bulan",
+        "totalpackage": "35GB",
+        "price": 320000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Internet Sakti",
+        "totalpackage": "40GB",
+        "price": 360000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Kouta Nonton",
+        "totalpackage": "45GB",
+        "price": 400000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Kuota Zoom",
+        "totalpackage": "50GB",
+        "price": 440000,
+        "validity": "30 days",
+        "promo": false
+      },
+      {
+        "name": "Paket Malam",
+        "totalpackage": "55GB",
+        "price": 480000,
+        "validity": "30 days",
+        "promo": true
+      }
+    ]
+  },
+  
+  "transactions": [
+    {
+      "provider": "telkomsel",
+      "selected_package": "2GB",
+      "quantity": 3,
+      "total_price": 225000,
+      "purchase_date": "2024-02-06",
+      "package_name": "Akhir Bulan",
+      "validity": "30 days"
+    },
+    {
+      "provider": "xl",
+      "selected_package": "6GB",
+      "quantity": 2,
+      "total_price": 240000,
+      "purchase_date": "2024-02-06",
+      "package_name": "Kuota Zoom",
+      "validity": "30 days"
+    },
+    {
+      "provider": "indosat",
+      "selected_package": "4GB",
+      "quantity": 1,
+      "total_price": 90000,
+      "purchase_date": "2024-02-06",
+      "package_name": "Paket Malam",
+      "validity": "30 days"
+    },
+    {
+      "provider": "tri",
+      "selected_package": "9GB",
+      "quantity": 4,
+      "total_price": 640000,
+      "purchase_date": "2024-02-06",
+      "package_name": "Paket Malam",
+      "validity": "30 days"
+    }
+  ]
+  
+}

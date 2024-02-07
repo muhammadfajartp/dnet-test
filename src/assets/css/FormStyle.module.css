@@ -1,0 +1,96 @@
+.containerLoginFormStyle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  padding: 40px 0px;
+}
+.containerLoginFormStyle .loginFormStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  transition: ease-in 200ms;
+}
+.containerLoginFormStyle .loginFormStyle input {
+  max-height: 45px;
+  width: 350px;
+  margin: 10px 3px;
+  background-color: #ffffff;
+  border-radius: 100px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+  letter-spacing: 1px;
+}
+.containerLoginFormStyle .loginFormStyle input:focus {
+  outline: none;
+}
+.containerLoginFormStyle .loginFormStyle img {
+  max-height: 35px;
+  width: 35px;
+}
+.containerLoginFormStyle .loginTitleStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  color: #000000;
+  top: 30px;
+  margin-bottom: 12px;
+}
+.containerLoginFormStyle .loginTitleStyle > :nth-child(1) {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.containerLoginFormStyle .loginTitleStyle > :nth-child(2) {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #acacac;
+  font-size: 14px;
+}
+.containerLoginFormStyle .containerBtnStyle {
+  margin: 20px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+.containerLoginFormStyle .containerBtnStyle > :nth-child(1) {
+  height: 45px;
+  width: 130px;
+  background-color: #fc773e;
+  border: none;
+  border-radius: 100px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 40%;
+  justify-content: flex-end;
+  align-items: center;
+  transition: all 200ms ease-out;
+}
+.containerLoginFormStyle .containerBtnStyle > :nth-child(1):hover {
+  background-color: #fe4d00;
+  cursor: pointer;
+}
+.containerLoginFormStyle .iconArrowLogin {
+  height: 35px;
+  width: 35px;
+  background-color: rgba(255, 255, 255, 0.6509803922);
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+  margin: 0 10px;
+}

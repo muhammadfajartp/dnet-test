@@ -1,0 +1,25 @@
+@import "./mixins";
+@import "./variables";
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+ul {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+.button {
+   color: blue;
+   background-color: red;
+}
+
+P {
+   margin-bottom: 0 !important;
+}

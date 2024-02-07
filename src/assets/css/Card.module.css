@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+.cardContainer {
+  max-height: 120px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  padding: 10px;
+  border-radius: 16px;
+  background-color: #f5f7fb;
+  color: #c4c8cb;
+}
+.cardContainer.darkMode {
+  background-color: #222e3c;
+  color: #ffffff;
+}
+.cardContainer .cardPromo {
+  width: 40%;
+  max-height: 40px;
+  background-color: red;
+  border-radius: inherit;
+  margin-top: 2px;
+}
+.cardContainer .cardPromo p {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+}
+.cardContainer .cardItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 6px;
+}
+.cardContainer .cardItem hr {
+  border: 2px solid white;
+  height: 50px;
+}

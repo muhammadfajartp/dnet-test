@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+// Colors variables
+$primary: #245caf;
+$secondary: #ffcf3a;
+$success: #8ed8aa;
+// Light Theme
+$light: #f5f7fb;
+$wrapper-light: $light;
+$bg-light: #ffffff;
+$text-light: #000000;
+
+// Dark Theme
+$dark: #222e3c;
+$wrapper-dark: $dark;
+$bg-dark: #273746;
+$text-dark: #ffffff;
+
+// Color constanta
+$bg-primary: #e2ecfa;
+$text-primary: #3b7ddd;
+$bg-success: #ddf5ee;
+$text-success: #1cbb8c;
+$bg-danger: #fae1e3;
+$text-danger: #dc3545;
+$text-gray: #c4c8cb;
+
+//Typographi
+$ff-sirin: "Sirin Stencil", cursive;
+$ff-monsterat: "Montserrat", sans-serif;
+$ff-roboto: "Roboto", sans-serif;
+$ff-space: "Space Grotesk", sans-serif;
+
+//Font Size Variables
+$fs-1: 6rem;
+$fs-2: 4rem;
+$fs-3: 3rem;
+$fs-4: 2.5rem;
+$fs-5: 2.25rem;
+$fs-6: 2rem;
+$fs-7: 1.875rem;
+$fs-8: 1.5rem;
+$fs-9: 1.25rem;
+$fs-10: 1rem;
+
+//Font Weight
+$fw-100: 100;
+$fw-200: 200;
+$fw-300: 300;
+$fw-400: 400;
+$fw-500: 500;
+$fw-600: 600;
+$fw-700: 700;
+
+$form-check-input-bg: $secondary;
+
+$carousel-dark-indicator-active-bg: $secondary;
+$carousel-dark-caption-color: $bg-dark;
+$carousel-dark-control-icon-filter: invert(1) $secondary(100);
+
+$form-range-track-bg: $secondary;

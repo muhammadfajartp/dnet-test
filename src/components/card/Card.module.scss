@@ -1,0 +1,94 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
+
+.cardContainer {
+   max-height: 120px;
+   width: 300px;
+   @include flex-style(column, flex-start, start);
+   padding: 10px;
+   border-radius: 16px;
+   position: relative;
+   @include light-card();
+   &.darkMode {
+      @include dark-card();
+   }
+
+   .cardPromo {
+      position: absolute;
+      width: 40%;
+      top: 2px;
+      max-height: 40px;
+      background-color: red;
+      border-radius: inherit;
+      margin-top: 2px;
+      p {
+         color: white;
+         text-align: center;
+         font-weight: $fw-600;
+      }
+   }
+
+   .cardChart {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 10px 20px 0 0;
+      cursor: pointer;
+   }
+
+   .cardItem {
+      @include flex-style(row, space-between, end);
+      width: 100%;
+      height: auto;
+      padding: 6px;
+
+      hr {
+         border: 2px solid white;
+         height: 50px;
+      }
+   }
+}
+
+.frameTransaksi {
+   width: 400px;
+   max-height: 400px;
+   border-radius: 8px;
+   border: none;
+   @include light-card();
+   &.darkMode {
+      @include dark-card();
+   }
+
+   .boxTransaksi {
+      padding: 1rem;
+      margin-block-end: 2rem;
+      border: 1px solid $light;
+
+      .contentTransaksi {
+         display: flex;
+         justify-content: flex-start;
+         margin-block-end: 1rem;
+         gap: 2rem;
+         .titleTransaksi {
+            font-weight: $fw-600;
+            color: $secondary;
+         }
+
+         .contentTransaksiLeft {
+            min-width: 120px;
+            text-align: start;
+            @include flex-style(row, flex-start, center);
+
+            .iconTransaksi {
+               margin-inline-end: 4px;
+               margin-block-end: -4px;
+               color: rgb(14, 88, 120);
+            }
+         }
+
+         .contentTransaksiRight {
+            text-align: start;
+         }
+      }
+   }
+}

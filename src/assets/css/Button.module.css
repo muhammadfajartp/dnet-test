@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+.btnUI {
+  padding: 10px 70px;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  height: 40px;
+  width: 80px;
+}
+
+.verSatu {
+  background-color: red;
+  color: #fe4d00;
+}
+.verSatu:hover {
+  background-color: #ffffff;
+  color: #a13101;
+  transition: all 0.2s ease-in;
+}
+
+.verDua {
+  background-color: #f5f7fb;
+  color: #000000;
+}
+.verDua:hover {
+  background-color: #fe4d00;
+  color: #ffffff;
+  transition: all 0.2s ease-in;
+}
+.verDua.darkMode {
+  background-color: #222e3c;
+  color: #ffffff;
+}

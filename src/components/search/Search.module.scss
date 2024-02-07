@@ -1,0 +1,19 @@
+@import "../../assets/scss/mixins";
+.searchStyle {
+   &:focus {
+      outline: none !important;
+   }
+
+   .inputSearchStyle {
+      outline: none !important;
+      box-shadow: none;
+      @include border-style(none, 50px);
+      &:focus {
+         outline: none !important;
+         box-shadow: none;
+      }
+   }
+   .iconSearch {
+      @include border-style(none, 50px);
+   }
+}
